@@ -32,7 +32,7 @@ FingerprintDialog.initialize(this)
 
 # Usecase n°3 : Secure a CryptoObject via authentication
 
-The CryptoObject will be valid only if the user has authenticated via fingerprint. This is one way to ensure that it is the correct user that is performing an operation (via Signature for example).
+The CryptoObject will be valid only if the user has authenticated via fingerprint. It can then be used to perform cryptographic operations (such as encrypting / decrypting data)
 
 ```java
 // You can use CipherHelper and SignatureHelper to generate a CryptoObject, or you can create your own one
