@@ -74,7 +74,7 @@ else{
 # Gradle
 
 ```gradle
-implementation 'me.aflak.libraries:fingerprintdialog:X.X'
+implementation 'me.aflak.libraries:fingerprintdialog:2.4.2'
 ```
     
 # Rendering
